@@ -117,6 +117,10 @@ export default function App() {
  return (
    <SafeAreaView style={styles.container}>
 
+    <View style={styles.iconCheck}>
+      <Feather name='check-circle' size={350} color='#000'/>
+    </View>
+
     {key.length > 0 && (
       <View style={{flexDirection: 'row', marginBottom: 8}}>
        <TouchableOpacity onPress={cancelEdit}>
@@ -164,6 +168,12 @@ const styles = StyleSheet.create({
     paddingTop: 25,
     paddingHorizontal: 10,
     backgroundColor: '#2E2077'
+  },
+  iconCheck: {
+    position: 'absolute',
+    top: '25%',
+    left: '1%',
+    opacity: 0.13
   },
   containerTask: {
     flexDirection: 'row'
