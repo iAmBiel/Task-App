@@ -27,9 +27,6 @@ Here are the technologies used in this project.
 
 ![3](https://github.com/iAmBiel/Task-App/assets/107372647/960761b2-3618-4ebe-8239-28914b9e3223)
 
-## Links
-  - Deploy on XXXXXX:
-
 ## Authors
 
 * **Gabriel Vieira Marques** 
